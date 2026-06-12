@@ -1,4 +1,4 @@
-# card-news-simple
+# card-news-simple-skill
 
 인스타그램 카드뉴스(4:5, 1080x1350) 생성기. 클로드 코드에 대화로 요청하면 카드별 HTML을 작성하고 Playwright로 PNG를 캡처한다.
 

@@ -1,4 +1,4 @@
-# card-news-simple (카드뉴스 Generator)
+# card-news-simple-skill (카드뉴스 Generator)
 
 주제 한 줄(또는 원고)을 주면 인스타용 **4:5 카드뉴스 이미지(1080x1350 PNG) 5~7장**을 만들어 주는 Claude Code 프로젝트.
 

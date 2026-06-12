@@ -1,5 +1,5 @@
 ---
-name: card-news-simple
+name: card-news-simple-skill
 description: >-
   주제 한 줄(또는 완성 원고)을 받아 인스타그램용 4:5 카드뉴스 PNG(1080x1350) 5~7장을
   만들어 주는 템플릿 스킬. 검정 배경·흰 글씨·Pretendard 자간 -3px의 흑백 타이포 베이스라인에서
@@ -11,7 +11,7 @@ description: >-
   "인스타 게시글 이미지로", "card news". 단일 이미지 생성·일반 PPT는 이 스킬이 아니다.
 ---
 
-# card-news-simple
+# card-news-simple-skill
 
 주제(또는 원고) → **흑백 타이포 카드뉴스 PNG 5~7장**. 핵심 철학: **내용은 날조하지 않고, 디자인은 베이스라인에서 출발해 그 사용자에게 맞춰 진화한다.**
 
