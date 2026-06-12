@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../templates/base.css">
+<style>
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 56px;
+}
+.label {
+  font-size: 30px;
+  font-weight: 600;
+  color: #888888;
+  letter-spacing: 0.15em;
+}
+h2 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+.check {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.check-item {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #eeeeee;
+}
+.check-item::before {
+  content: "✓";
+  font-weight: 800;
+  color: #ffffff;
+}
+.note {
+  font-size: 32px;
+  color: #999999;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="label">그래서, 다음은</div>
+    <h2>다음 주인공의<br>조건은 이미 정해져 있다</h2>
+    <div class="check">
+      <div class="check-item">소리로 전달되는 식감 반전이 있을 것</div>
+      <div class="check-item">아는 맛 + 모르는 조합일 것</div>
+      <div class="check-item">한 손에 들고 찍을 수 있을 것</div>
+    </div>
+    <div class="note">약과 크루아상, 흑임자 카스텔라, 인절미 휘낭시에. 편의점 신상 코너에서 이 조건에 맞는 게 보이면, 그게 다음 대란이다.</div>
+    <div class="page-num">05 / 06</div>
+  </div>
+</body>
+</html>

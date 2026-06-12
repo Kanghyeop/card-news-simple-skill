@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../templates/base.css">
+<style>
+.card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 88px;
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  padding: 36px 0;
+  border-bottom: 1px solid #333333;
+}
+.item:last-child { border-bottom: none; }
+.year {
+  font-size: 30px;
+  font-weight: 600;
+  color: #888888;
+  width: 130px;
+  flex-shrink: 0;
+}
+.name {
+  font-size: 46px;
+  font-weight: 700;
+}
+.desc {
+  font-size: 28px;
+  color: #999999;
+  margin-left: auto;
+  text-align: right;
+}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h2>유행은 한 번도<br>쉰 적이 없다</h2>
+    <div class="timeline">
+      <div class="item"><span class="year">2023</span><span class="name">탕후루</span><span class="desc">바삭, 그리고 설탕 논란</span></div>
+      <div class="item"><span class="year">2024</span><span class="name">두바이 초콜릿</span><span class="desc">품절 대란의 시작</span></div>
+      <div class="item"><span class="year">2025</span><span class="name">두쫀쿠</span><span class="desc">쫀득함의 재발견</span></div>
+      <div class="item"><span class="year">2025</span><span class="name">버터떡</span><span class="desc">편의점을 접수하다</span></div>
+    </div>
+    <div class="page-num">02 / 06</div>
+  </div>
+</body>
+</html>
