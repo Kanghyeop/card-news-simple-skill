@@ -2,6 +2,28 @@
 
 주제 한 줄(또는 원고)을 주면 인스타용 **4:5 카드뉴스 이미지(1080x1350 PNG) 5~7장**을 만들어 주는 Claude Code 프로젝트.
 
+## 샘플 갤러리
+
+같은 주제도 디자인 프리셋에 따라 이렇게 달라집니다. (전체 장은 `output/` 폴더에)
+
+**mono** - 검정 배경 흑백 타이포 (기본)
+
+<p>
+<img src="output/dessert-next/01.png" width="240"> <img src="output/dessert-next/02.png" width="240"> <img src="output/dessert-next/04.png" width="240">
+</p>
+
+**paperlogy풍** - 회색 배경 + 흰 카드 + 포인트 블루
+
+<p>
+<img src="output/_preset-preview/paperlogy/01.png" width="240"> <img src="output/_preset-preview/paperlogy/02.png" width="240"> <img src="output/_preset-preview/paperlogy/04.png" width="240">
+</p>
+
+**hyeop풍** - 흰 배경 + 형광펜
+
+<p>
+<img src="output/_preset-preview/hyeop/01.png" width="240"> <img src="output/_preset-preview/hyeop/03.png" width="240"> <img src="output/_preset-preview/hyeop/06.png" width="240">
+</p>
+
 ## 이것만 하시면 됩니다
 1. 이 폴더에서 Claude Code를 연다
 2. Claude에게: **"○○ 주제로 카드뉴스 만들어줘"** (이미 쓴 글이 있으면 글을 통째로 줘도 됩니다)
