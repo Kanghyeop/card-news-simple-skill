@@ -17,6 +17,7 @@ body {
   background: #000000;
   color: #ffffff;
   font-family: "Pretendard Variable", Pretendard, sans-serif;
+  letter-spacing: -3px; /* 전역 자간 고정. 카드에서 재정의 금지 */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -32,10 +33,9 @@ body {
   position: absolute;
   right: 80px;
   bottom: 80px;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 500;
   color: #888888;
-  letter-spacing: 0.05em;
 }
 
 .divider {
