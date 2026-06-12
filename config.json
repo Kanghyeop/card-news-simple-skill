@@ -1,5 +1,6 @@
 {
   "onboarded": false,
+  "preset": "mono",
   "tone_default": null,
   "handle": null,
   "references_applied": []

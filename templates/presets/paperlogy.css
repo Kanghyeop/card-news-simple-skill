@@ -1,0 +1,66 @@
+/* 프리셋: paperlogy풍 — ppt-paperlogy-inspired-skill의 DNA 계승
+   회색 배경 + 흰 카드 패널 + 포인트 블루 + 잉크 텍스트. 차분한 리포트 톤. */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+}
+
+body {
+  background: #f4f4f4;
+  color: #222222;
+  font-family: "Pretendard Variable", Pretendard, sans-serif;
+  letter-spacing: -2px; /* 프리셋 자간. 카드에서 재정의 금지 */
+  -webkit-font-smoothing: antialiased;
+}
+
+.card {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  padding: 80px; /* 안전 여백 */
+}
+
+/* 공통 타이포 장치 */
+.page-num {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #8e8e93;
+}
+
+.divider {
+  border: none;
+  border-top: 4px solid #1456f0;
+  width: 64px;
+}
+
+/* paperlogy 전용 장치 */
+.accent { color: #1456f0; }          /* 포인트 컬러 텍스트 */
+.panel {                              /* 흰 카드 패널 */
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 48px 52px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+.tag {                                /* 헤더태그 칩 */
+  display: inline-block;
+  background: #1456f0;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 8px 22px;
+  border-radius: 10px;
+}
+.sub { color: #45515e; }              /* 보조 텍스트 (슬레이트) */
